@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="Spinner">
+        <item>...</item>
+        <item>Полиморфизм</item>
+        <item>Наследование</item>
+        <item>Инкапсуляция</item>
+    </string-array>
+</resources>

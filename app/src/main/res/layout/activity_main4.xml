@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthActivity"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Задание 4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Верно ли утверждение: Метод является перегруженным, в том случае если существует несколько его реализаций с одинаковым именем, но с различной сигнатурой."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_gravity="center_horizontal"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup2">
+        <RadioButton
+            android:id="@+id/radiob1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Верно"/>
+        <RadioButton
+            android:id="@+id/radiob2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Неверно"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Далее"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button4"/>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivitz"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Задание 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="В результате работы программы \nString s1 = new String('My IT school');\nString s2 = ...;\nвыражение s1 == s2 имеет значение true.\nВставьте пропущенный фрагмент кода."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Далее"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button2"/>
+
+</LinearLayout>
